@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# PyTorch / YOLO
+*.pt
+*.pth
+*.onnx
+runs/
+wandb/
+
+# Datasets and media
+data/raw/*
+!data/raw/.gitkeep
+data/datasets/*
+!data/datasets/.gitkeep
+*.mp4
+*.avi
+*.mov
+
+# PaddleOCR
+.paddleocr/
+ppocr_img/
+
+# VS Code & IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

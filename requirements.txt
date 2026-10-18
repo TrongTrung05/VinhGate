@@ -1,0 +1,27 @@
+# Deep Learning & Computer Vision (Member A core)
+# Note: Install torch & torchvision first with CUDA if using NVIDIA GPU:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+ultralytics>=8.3.0
+opencv-python>=4.10.0.84
+opencv-contrib-python>=4.10.0.84
+pillow>=10.4.0
+numpy>=1.26.0,<2.0.0
+matplotlib>=3.9.0
+albumentations>=1.4.0
+
+# OCR Engine
+paddlepaddle>=2.6.2
+paddleocr>=2.8.0
+
+# Dataset, Annotation & Exploration
+roboflow>=1.1.0
+labelme>=5.5.0
+ipykernel>=6.29.0
+tqdm>=4.66.0
+tabulate>=0.9.0
+
+# Database & GUI (Integration & Member B collaboration)
+PyQt6>=6.7.0
+customtkinter>=5.2.2
+pandas>=2.2.0
+openpyxl>=3.1.5
